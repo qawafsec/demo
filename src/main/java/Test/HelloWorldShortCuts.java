@@ -64,10 +64,9 @@ public class HelloWorldShortCuts {
             }
 
             // Keyword new (чтобы создавать объекты, объект-это непосрдетсвенно значение,
-            // в которое будут хранить в себе данные, который описаны в каком-то в классе
+            // в которое будут хранить в себе данные, которые описаны в каком-то в классе
         char[] original;
-        String name = new String(original:"Dima");
-            String name = "Dima";
+            String name =new String("Kirill");
 
 
 
