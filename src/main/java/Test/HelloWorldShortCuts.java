@@ -6,7 +6,6 @@ import java.util.List;
 
 public class HelloWorldShortCuts {
     public static void main(String[] args) {
-
             // Типы с плавающей точкой
             float aFloat = 0.0F;
             double ml = 0.5;
@@ -17,7 +16,11 @@ public class HelloWorldShortCuts {
             // Целочисленные типы
             byte aByte = 0; // 8b -128 + 127
             short aShort = 0; // 16b -32768 + 32767
-            int aInt = 0; // 32b (-2^32) ... (+2^32 -1)
+
+
+            int aIntOverFlow = 2147483647; // 32b (-2^32) ... (+2^32 -1)
+            System.out.println(aIntOverFlow + 1);
+            //System.out.println(Integer.MAX_VALUE + 1)
             Integer intWrapper = 0;
             long aLong = 0L; //64b
             String colour = "transparent";
@@ -32,12 +35,12 @@ public class HelloWorldShortCuts {
             int age = 26;
             String nameSecond = "Petya";
             // Арифмитические операторы (для работы с числами) + - / * % ++ --
-            int result = aInt;
+            int result =  aIntOverFlow;
 
             // Операторы сравнения <, >, >=, <=, !=(не равно), ==("true" equal) - (всегда возвращают тип boolean)
             // System.out.println(3 == 3);
             // Логические операторы &(and), |(or), &&(short and), ||(short or), !(inversion), ^(analog !=)
-            System.out.println(!(nameFirst.equals("Pet12ya") || age == 26));
+         System.out.println(!(nameFirst.equals("Pet12ya") || age == 26));
             //if (nameFirst != null && nameFirst.length() == 6) {
               //  System.out.println("Luck");
 
