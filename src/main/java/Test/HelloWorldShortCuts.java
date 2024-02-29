@@ -16,11 +16,7 @@ public class HelloWorldShortCuts {
             // Целочисленные типы
             byte aByte = 0; // 8b -128 + 127
             short aShort = 0; // 16b -32768 + 32767
-
-
             int aIntOverFlow = 2147483647; // 32b (-2^32) ... (+2^32 -1)
-            System.out.println(aIntOverFlow + 1);
-            //System.out.println(Integer.MAX_VALUE + 1)
             Integer intWrapper = 0;
             long aLong = 0L; //64b
             String colour = "transparent";
@@ -36,7 +32,8 @@ public class HelloWorldShortCuts {
             String nameSecond = "Petya";
             // Арифмитические операторы (для работы с числами) + - / * % ++ --
             int result =  aIntOverFlow;
-
+        System.out.println(aIntOverFlow + 1);
+        System.out.println(Integer.MAX_VALUE + 1);
             // Операторы сравнения <, >, >=, <=, !=(не равно), ==("true" equal) - (всегда возвращают тип boolean)
             // System.out.println(3 == 3);
             // Логические операторы &(and), |(or), &&(short and), ||(short or), !(inversion), ^(analog !=)
@@ -70,7 +67,6 @@ public class HelloWorldShortCuts {
             // в которое будут хранить в себе данные, которые описаны в каком-то в классе
         char[] original;
             String name =new String("Kirill");
-
 
 
             }
